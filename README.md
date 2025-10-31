@@ -8,16 +8,13 @@ The GUI enables loading appliance data from files, viewing sorted lists, and man
 
 ---
 
-##  Features
-- **Object-Oriented Design**: Uses inheritance and encapsulation across multiple appliance types.  
-- **Custom Sorting**: Three different `TreeMap` objects sort appliances by serial number, brand, or cost using `Comparator` classes.  
-- **GUI Interface**: Built with `JFrame` and `JMenuBar`, allowing easy interaction with appliance data.  
-- **File Input Support**: Reads data from text files and validates input with custom exception handling (`IllegalApplianceException`).  
-- **Scalable Design**: Easy to extend by adding new appliance types or comparators.
+- **Object-Oriented Design** – Each appliance type (like Refrigerator, Microwave, or Dishwasher) extends a shared base class with its own unique behavior and fields.  
+- **Sorting** – Appliances are stored in multiple `TreeMap` structures and sorted by serial number, brand, or cost using custom `Comparator` classes.  
+- **User-Friendly GUI** – A Swing interface makes it easy to open files, display data, and view sorted appliances.  
+- **File Input with Error Handling** – Reads appliance info from text files and uses a custom exception class to catch invalid or incomplete data.  
+- **Flexability** – This structure makes it simple to add new appliance types or sorting rules later on.
 
----
-
-## 🗂️ Project Structure
+## Project Structure
 
 | File | Description |
 |------|--------------|
@@ -28,7 +25,7 @@ The GUI enables loading appliance data from files, viewing sorted lists, and man
 | **FileMenuHandler.java** | Handles menu actions such as file loading and GUI updates. |
 | **SerialNumberComparator.java** | Custom comparator to sort appliances based on serial number. |
 | **IllegalApplianceException.java** | Custom exception to handle invalid or missing appliance data. |
-| **Project4.java** | The main driver class that launches the GUI and initializes the application. |
+| **Main.java** | The main driver class that launches the GUI and initializes the application. |
 
 ---
 
