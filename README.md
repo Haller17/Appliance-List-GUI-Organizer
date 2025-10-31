@@ -1,7 +1,7 @@
-# Appliance Management System
+# Appliance List GUI Organizer
 
 ## Overview
-This Java project implements an **Appliance Management System** with a graphical user interface (GUI) that allows users to manage and sort various household appliances.  
+This Java project implements an **Appliance List Organizer** with a graphical user interface (GUI) that allows users to manage and sort various household appliances.  
 It demonstrates **object-oriented programming principles** such as inheritance, polymorphism, and exception handling, along with **data organization using TreeMaps** and **custom comparators** for sorting.
 
 The GUI enables loading appliance data from files, viewing sorted lists, and managing different appliance types (e.g., Dishwashers, Microwaves, Refrigerators).
